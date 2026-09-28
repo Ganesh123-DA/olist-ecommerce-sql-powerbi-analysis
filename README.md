@@ -21,12 +21,6 @@ End-to-end analysis of the Olist Brazilian E-Commerce dataset using **MySQL and 
 
 ---
 
-## 📊 Power BI Dashboard
-
-![Olist E-Commerce Dashboard](dashboard_screenshot.png)
-
----
-
 ## 🗃️ Dataset
 
 9 relational tables covering customers, orders, order items, products, sellers, payments, reviews, geolocation and category translation.
