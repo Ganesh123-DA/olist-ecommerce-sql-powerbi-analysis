@@ -6,8 +6,6 @@ End-to-end e-commerce data analysis using SQL and Power BI on the Olist Brazilia
 
 # Olist E-Commerce Analytics: SQL + Power BI
 
-# Olist E-Commerce Analytics: SQL + Power BI
-
 ## 📌 Project Overview
 
 End-to-end analysis of the Olist Brazilian E-Commerce dataset using **MySQL and Power BI**.
