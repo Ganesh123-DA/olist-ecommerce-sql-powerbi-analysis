@@ -1,3 +1,20 @@
+# Olist E-Commerce Analytics: SQL + Power BI
+
+## 📌 Project Overview
+
+End-to-end analysis of the Olist Brazilian E-Commerce dataset using **MySQL and Power BI**.
+
+- ~99K Orders
+- 96K Unique Customers
+- 33K Products
+- 9 Relational Tables
+- 49 SQL Queries
+- Power BI connected to MySQL using DirectQuery
+
+**Tools:** MySQL, Power BI, DAX, GitHub
+
+---
+
 
 ## 🎯 Business Problem
 
@@ -15,23 +32,6 @@ The Olist e-commerce dataset contains information about orders, customers, produ
 ## 📊 Power BI Dashboard
 
 ![Olist E-Commerce Dashboard](dashboard_screenshot.png)
-
-# Olist E-Commerce Analytics: SQL + Power BI
-
-## 📌 Project Overview
-
-End-to-end analysis of the Olist Brazilian E-Commerce dataset using **MySQL and Power BI**.
-
-- ~99K Orders
-- 96K Unique Customers
-- 33K Products
-- 9 Relational Tables
-- 49 SQL Queries
-- Power BI connected to MySQL using DirectQuery
-
-**Tools:** MySQL, Power BI, DAX, GitHub
-
----
 
 ## 🗃️ Dataset
 
