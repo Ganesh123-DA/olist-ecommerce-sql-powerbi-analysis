@@ -1,3 +1,6 @@
+# olist-ecommerce-sql-powerbi-analysis
+End-to-end e-commerce data analysis using SQL and Power BI on the Olist Brazilian dataset
+
 ## 🎯 Business Problem
 
 The Olist e-commerce dataset contains information about orders, customers, products, payments, reviews, sellers, and delivery. The goal of this project is to analyze the data and identify patterns in sales performance, customer behavior, product performance, payment methods, and delivery outcomes.
@@ -11,8 +14,6 @@ The Olist e-commerce dataset contains information about orders, customers, produ
 - Evaluate order delivery performance and customer reviews
 - Identify key business trends and insights from the data
 
-# olist-ecommerce-sql-powerbi-analysis
-End-to-end e-commerce data analysis using SQL and Power BI on the Olist Brazilian dataset
 ## 📊 Power BI Dashboard
 
 ![Olist E-Commerce Dashboard](dashboard_screenshot.png)
