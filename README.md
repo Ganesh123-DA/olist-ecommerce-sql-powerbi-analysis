@@ -9,7 +9,7 @@ End-to-end analysis of the Olist Brazilian E-Commerce dataset using **MySQL and 
 - 33K Products
 - 9 Relational Tables
 - 49 SQL Queries
-- Power BI connected to MySQL using DirectQuery
+- Power BI connected to MySQL using Import mode
 
 **Tools:** MySQL, Power BI, DAX, GitHub
 
@@ -32,6 +32,15 @@ The Olist e-commerce dataset contains information about orders, customers, produ
 ## 📊 Power BI Dashboard
 
 ![Olist E-Commerce Dashboard](Olist_powerbi_dashboard.png)
+
+### 📥 Download the Dashboard
+
+The interactive Power BI file (60 MB) is available in the [Releases section](https://github.com/Ganesh123-DA/olist-ecommerce-sql-powerbi-analysis/releases/tag/v1.0).
+
+**How to open:**
+1. Download `Olist.Ecommerce.Sales.Dashboard.pbix` from the release page.
+2. Open it in **Power BI Desktop** (free, Windows only).
+3. Data is stored inside the file (Import mode), so no database setup is needed.
 
 ## 🗃️ Dataset
 
