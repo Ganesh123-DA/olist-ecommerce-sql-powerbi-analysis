@@ -31,7 +31,7 @@ The Olist e-commerce dataset contains information about orders, customers, produ
 
 ## 📊 Power BI Dashboard
 
-![Olist E-Commerce Dashboard](dashboard_screenshot.png)
+![Olist E-Commerce Dashboard](Olist_powerbi_dashboard.png)
 
 ## 🗃️ Dataset
 
