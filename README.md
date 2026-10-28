@@ -1,89 +1,110 @@
-# Olist E-Commerce Analytics: SQL + Power BI
+# 🛒 Olist E-Commerce Analytics | SQL + Power BI
+
+End-to-end e-commerce data analysis using **MySQL, Power BI, and DAX** to explore sales performance, customer behavior, payments, and delivery trends.
+
+## 📊 Dashboard Previews
+
+### 📈 Sales Overview
+
+![Olist Sales Overview](olist%20Sales%20Overview.png)
+
+### 📦 Orders & Customers
+
+![Olist Orders & Customers](Olist%20Orders%20%26%20Customers%20.png)
 
 ## 📌 Project Overview
 
-End-to-end analysis of the Olist Brazilian E-Commerce dataset using **MySQL and Power BI**.
+* 🛍️ ~99K Orders
+* 👥 96K Unique Customers
+* 📦 33K Products
+* 🗃️ 9 Relational Tables
+* 💻 49 SQL Queries
+* 🔗 Power BI connected to MySQL using Import mode
 
-- ~99K Orders
-- 96K Unique Customers
-- 33K Products
-- 9 Relational Tables
-- 49 SQL Queries
-- Power BI connected to MySQL using Import mode
-
-**Tools:** MySQL, Power BI, DAX, GitHub
+**Tools:** MySQL | Power BI | DAX | GitHub
 
 ---
-
 
 ## 🎯 Business Problem
 
-The Olist e-commerce dataset contains information about orders, customers, products, payments, reviews, sellers, and delivery. The goal of this project is to analyze the data and identify patterns in sales performance, customer behavior, product performance, payment methods, and delivery outcomes.
+The Olist Brazilian E-Commerce dataset contains information about orders, customers, products, payments, reviews, sellers, and deliveries.
 
-## 📌 Project Objectives
+The goal was to analyze business performance and uncover actionable insights from this data.
 
-- Analyze overall sales and order performance over time
-- Identify top-performing products and customer locations
-- Analyze customer and order behavior
-- Understand payment method distribution
-- Evaluate order delivery performance and customer reviews
-- Identify key business trends and insights from the data
+## 🎯 Project Objectives
 
-## 📊 Power BI Dashboard
+* Analyze sales and order trends over time.
+* Identify top-performing products and customer locations.
+* Understand customer purchasing behavior.
+* Explore payment methods and their contribution to payment value.
+* Evaluate delivery performance and customer reviews.
+* Identify trends that can support business decisions.
 
-![Olist E-Commerce Dashboard](Olist_powerbi_dashboard.png)
+## 📥 Download the Power BI Dashboard
 
-### 📥 Download the Dashboard
-
-The interactive Power BI file (60 MB) is available in the [Releases section](https://github.com/Ganesh123-DA/olist-ecommerce-sql-powerbi-analysis/releases/tag/v1.0).
+The interactive Power BI file (~60 MB) is available in the **[GitHub Releases](https://github.com/Ganesh123-DA/olist-ecommerce-sql-powerbi-analysis/releases/tag/v1.0)** section.
 
 **How to open:**
-1. Download `Olist.Ecommerce.Sales.Dashboard.pbix` from the release page.
-2. Open it in **Power BI Desktop** (free, Windows only).
-3. Data is stored inside the file (Import mode), so no database setup is needed.
+
+1. Download `Olist.Ecommerce.Sales.Dashboard.pbix`.
+2. Open it using Power BI Desktop.
+3. The data is stored inside the file using Import mode, so a separate database connection is not required to view the report.
 
 ## 🗃️ Dataset
 
-9 relational tables covering customers, orders, order items, products, sellers, payments, reviews, geolocation and category translation.
+The project uses 9 relational tables covering:
 
----
+* Customers and orders
+* Order items and products
+* Sellers and payments
+* Reviews and geolocation
+* Product category translations
 
 ## 🧹 Data Preparation
 
-- Converted text dates to proper `DATETIME`
-- Handled missing delivery dates
-- Used `customer_unique_id` for customer analysis
-- Translated product categories
-- Excluded incomplete months
-
----
+* Converted text dates into proper `DATETIME` values.
+* Handled missing delivery dates.
+* Used `customer_unique_id` for customer-level analysis.
+* Translated product categories.
+* Excluded incomplete months from relevant trend analysis.
 
 ## 🧮 SQL Analysis
 
-**49 queries** covering:
+Created **49 SQL queries** covering:
 
-- Basic SQL & Aggregations
-- Joins
-- Subqueries
-- Window Functions
-- CTEs
-- Views
-- Stored Procedures
+* Basic queries and aggregations
+* Joins
+* Subqueries
+* Window functions
+* Common Table Expressions (CTEs)
+* Views
+* Stored procedures
 
----
+## 🔍 Key Business Insights
 
-## 🔍 Key Insights
+* ⭐ Late deliveries: **2.57 average review score**, compared with **4.29** for on-time deliveries.
+* 🔁 Repeat customers: **3.12%**.
+* 📍 São Paulo: approximately **5.2M BRL** in product sales.
+* 💳 Credit cards: approximately **78% of payment value**.
+* 🚚 Delivered orders: **97.78%**.
+* ⏱️ Average delivery time: **12.5 days**.
+* 📈 Peak monthly sales: approximately **1.01M BRL** in November 2017.
 
-- Late deliveries: **2.57** avg. review vs **4.29** for on-time orders
-- Repeat customers: **3.12%**
-- São Paulo: **~5.2M BRL** in product sales
-- Credit cards: **~78%** of payment value
-- Delivered orders: **97.78%**
-- Average delivery time: **12.5 days**
-- Peak monthly sales: **~1.01M BRL** in November 2017
+*Insights are based on the project's SQL analysis and dashboard calculations.*
 
----
+## 🧠 Skills Demonstrated
+
+* **SQL:** Joins, aggregations, CTEs, subqueries, window functions, views, and stored procedures.
+* **Power BI:** Dashboard development, data visualization, and report design.
+* **DAX:** Measures and business KPI calculations.
+* **Data Preparation:** Cleaning, date handling, and relational data analysis.
+* **Business Analysis:** Sales trends, customer behavior, payment analysis, and delivery performance.
+* **GitHub:** Project documentation and version control.
 
 ## 🛠️ Technologies
 
-**MySQL | Power BI | DAX | GitHub**
+`MySQL` `Power BI` `DAX` `GitHub`
+
+---
+
+**Project Focus:** Turning e-commerce data into meaningful business insights through SQL analysis and interactive Power BI dashboards.
